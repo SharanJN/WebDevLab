@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <h1> Popcorn Sales Order Form </h1>
+        <form action = "submit_order.php"
+        method="post">
+    <label for = "BuyerName"> Buyer's Name: </label>
+    <input type="text" id ="Buyer's Name" name = "Address" required><br>
+    <label for = "Unpopped Popcorn">
+        <input type = "checkbox" 
+        id = "Unpopped Popcorn" name = "Popcorn Item" value = "Unpopped Popcorn(1 lb)- $3.00">
+        Unpopped Popcorn (1lb) - $ 3.00
+        </label><br>
+        <label for = "Caramel Popcorn">
+            <input type = "checkbox"
+            id = "Caramel Popcorn" name = "Popcorn Item"
+            value = "Caramel Popcorn(2lb. canister) - $ 3.50">
+            Caramel Popcorn (2lb. canister) - $3.50
+        </label><br>
+        <label for = "ToffeyNuPopcorn">
+            <input type = "checkbox"
+            id = "tofferyNuPopcorn" name = "popcornItem"
+            value = "Toffery Nu Popcorn (2lb. canister) - $5.00)">
+            ToffeyNuPopcorn (2lb. canister) - $5.00
+        </label><br>
+        <label> Payment Method: </label><br>
+        <label for = "visa">
+            <input type = "radio" id = "Visa"
+            name = "payment method" value = "Visa"> Visa
+        </label><br>
+        <label for = "mastercard">
+            <input type = "radio" id = "mastercard"
+            name = "paymentMethod" value = "Mastercard"> Mastercard
+        </label><br>
+        <label for = "discover">
+            <input type = "radio" id = "discover"
+            name = "paymentMethod" value = "Discover"> Discover
+        </label><br>
+        <input type = "submit" value = "Submit Order">
+        <input type = "reset" value = "Clear Order Form">
+    </form>
+    </head>
+</html>
